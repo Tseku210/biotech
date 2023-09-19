@@ -1,5 +1,3 @@
-import Particles from "react-tsparticles";
-import particlesConfig from "./config/particles-config";
 import dynamic from "next/dynamic";
 const ParticlesBackground = dynamic(
   () => import("@/components/particlesBackground"),
