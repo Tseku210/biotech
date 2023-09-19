@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center py-5 px-20 shadow-md text-black z-50 border-b-2 relative bg-white">
       <Image alt="logo" src={Logo} width={150} height={150} />
-      <div className="flex gap-20">
+      <div className="gap-20 lg:flex md:flex hidden">
         <a
           href="#home"
           onClick={(e) => {

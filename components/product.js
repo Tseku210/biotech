@@ -25,8 +25,8 @@ const Product = () => {
               болон арьсан доорх тарилга хэлбэрээр хийдэг.
             </div>
           </div>
-          <div className="flex justify-center items-center bg-gray-100 w-2/3 mt-5 p-5 rounded-2xl">
-            <div className="font-bold text-2xl text-blue-500 mr-10">Заавар</div>
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-5 bg-gray-100 w-2/3 mt-5 p-5 rounded-2xl">
+            <div className="font-bold text-2xl text-blue-500">Заавар</div>
             <div className="text-lg text-justify italic text-gray-700">
               800 кг – эр үхэр, адуу – 40 ммоль/л M8, 32 ммоль/л M170 500 кг –
               эм үхэр, адуу – 25, 20 50 кг – тугал, эм хонь, ямаа – 25, 20 100
