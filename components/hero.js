@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className='relative z-10 text-center pb-12 md:pb-16'>
         <h1
-          className='text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-black'
+          className='text-4xl md:text-6xl font-extrabold mb-4 text-black'
           data-aos='zoom-y-out'>
           Бусдын амьдралыг{' '}
           <span className='bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400'>
