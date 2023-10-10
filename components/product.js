@@ -26,7 +26,7 @@ const Product = () => {
               болон арьсан доорх тарилга хэлбэрээр хийдэг.
             </div>
           </div>
-          <div className='flex flex-col lg:flex-row justify-center items-center gap-5 bg-gray-100 w-2/3 mt-5 p-5 rounded-2xl'>
+          <div className='flex flex-col lg:flex-row justify-center items-center gap-5 bg-gray-100 md:w-2/3 lg:w-2/3 sm:w-full mt-5 p-5 rounded-2xl'>
             <div className='font-bold text-2xl text-blue-500'>Заавар</div>
             <div className='text-lg text-justify italic text-gray-700'>
               800 кг – эр үхэр, адуу – 40 ммоль/л M8, 32 ммоль/л M170 500 кг –
@@ -49,6 +49,10 @@ const Product = () => {
                 Mogurt
               </span>
               <br />
+              <span className='text-gray-400 text-sm italic'>
+                Монгол иогурт Монгол хүн таны эрүүл энхийг сахина
+              </span>
+              <br />
               “Могурт” нь Эмийн сөд (Sanguisorba Officinalis) - ийн хуурай ханд,
               таван төрлийн пробиотик бактериудыг (L. acidophilus, S.
               thermophilus, L. casei, L. d. bulgaricus, B. lactis) агуулсан
@@ -58,7 +62,7 @@ const Product = () => {
               үйлчилгээтэй.
             </div>
           </div>
-          <div className='flex flex-col lg:flex-row justify-center items-center gap-5 bg-gray-100 w-2/3 mt-5 p-5 rounded-2xl'>
+          <div className='flex flex-col lg:flex-row justify-center items-center gap-5 bg-gray-100 md:w-2/3 lg:w-2/3 sm:w-full mt-5 p-5 rounded-2xl'>
             <div className='font-bold text-2xl text-blue-500'>Заавар</div>
             <div className='text-lg text-justify italic text-gray-700'>
               1-3 литр сүүн дээр нэг уут тарагны хөрөнгөө хийгээд 8-24 цаг
